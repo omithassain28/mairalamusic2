@@ -44,7 +44,7 @@ export default class OrasConfig extends Object {
         this.botinvite = `https://discord.gg/mairala`;
         this.spotiId = "e6f84fbec2b44a77bf35a20c5ffa54b8";
         this.spotiSecret = "498f461b962443cfaf9539c610e2ea81";
-        this.owners = ["1022180304854728724"];
+        this.owners = ["823101214564417536"];
         this.color = "#45FFCA";
         this.supportId = "788884879781658644"; //Server Id
         this.spotiNodes = [
