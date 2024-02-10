@@ -16,8 +16,7 @@ export default class OrasConfig extends Object {
     setupBgLink;
     constructor() {
         super();
-        this.token =
-            "MTE5OTQxMDY1NjI5ODkyNjEyMA.GUFjtJ.hboiI457T_lFFAc9PmmVngYww71eLD7_j1B5L8";
+        this.token = process.env.token;
         this.botid = "1199410656298926120"
         this.prefix = ".";
         this.nodes = [
