@@ -1,5 +1,9 @@
 import { ClusterManager, HeartbeatManager, ReClusterManager, messageType, } from "discord-hybrid-sharding";
 import OrasConfig from "./src/setting/Config.js";
+import express from "express";
+
+const app = express();
+const PORT = process.env.PORT || 3000;
 const Config = new OrasConfig();
 const manager = new ClusterManager("./build/src/oras.js", {
     totalClusters: "auto",
