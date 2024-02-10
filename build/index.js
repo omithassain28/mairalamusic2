@@ -1,6 +1,7 @@
 import { ClusterManager, HeartbeatManager, ReClusterManager, messageType, } from "discord-hybrid-sharding";
 import OrasConfig from "./src/setting/Config.js";
 const Config = new OrasConfig();
+const keep_alive = require('./keep_alive.js');
 const manager = new ClusterManager("./build/src/oras.js", {
     totalClusters: "auto",
     totalShards: "auto",
