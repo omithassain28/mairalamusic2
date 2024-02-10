@@ -64,7 +64,7 @@ export default class OrasConfig extends Object {
               secure: false,
           }, // Dont Change The Name Of Nodes
         ];
-        this.voteUrl = "https://top.gg/bot/1027828697828433980/vote";
+        this.voteUrl = "https://discordbotlist.com/bots/rias-gremory-0912/upvote";
         this.setupBgLink =
             "https://media.discordapp.net/attachments/1190943041922535517/1190943144158691369/live_now.png?ex=65a3a33c&is=65912e3c&hm=3f442c1bd2f8b61e3be1f1c625d891df2b90334098765ca174750746912df20d&=&format=webp&quality=lossless&width=1000&height=562";
     }
