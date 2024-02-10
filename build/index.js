@@ -43,6 +43,20 @@ manager.on("clusterCreate", (cluster) => {
     console.log(`𝑲𝒊𝒏𝒈 | Cluster is Created: ${cluster.id}`);
 });
 manager.on("debug", (info) => console.info(`𝑲𝒊𝒏𝒈 | `,info));
+
+app.get('/', (req, res) => {
+  const message = `
+─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───
+Made By - Mairala King
+Discord - [https://discord.gg/5wJNJfsSfT](https://discord.gg/5wJNJfsSfT)
+─── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───── ⋆⋅☆⋅⋆ ───
+  `;
+  res.send(message);
+});
+
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
 manager.spawn();
 process.on("unhandledRejection", async (e) => {
     console.log("𝑲𝒊𝒏𝒈 | ", e);
