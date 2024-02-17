@@ -16,12 +16,12 @@ export default class Ready extends OrasEvent {
                 {
                     content: `𝑲𝒊𝒏𝒈 | ${this.client.config.prefix}help`,
                     type: 2,
-                    status: `idle`,
+                    status: `dnd`,
                 },
                 {
                     content: `𝑲𝒊𝒏𝒈 | ${this.client.config.prefix}play`,
                     type: 3,
-                    status: `online`,
+                    status: `dnd`,
                 },
             ];
             setInterval(() => {
